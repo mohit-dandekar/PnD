@@ -1,0 +1,574 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADPCM_DEC_band0	C_src/ADPCM_SBC.h	/^   ADPCM_dec_t ADPCM_DEC_band0;$/;"	m	struct:ADPCM_SBDecoder_t
+ADPCM_DEC_band1	C_src/ADPCM_SBC.h	/^   ADPCM_dec_t ADPCM_DEC_band1;$/;"	m	struct:ADPCM_SBDecoder_t
+ADPCM_DEC_band2	C_src/ADPCM_SBC.h	/^   ADPCM_dec_t ADPCM_DEC_band2;$/;"	m	struct:ADPCM_SBDecoder_t
+ADPCM_DEC_band3	C_src/ADPCM_SBC.h	/^   ADPCM_dec_t ADPCM_DEC_band3;$/;"	m	struct:ADPCM_SBDecoder_t
+ADPCM_DEC_band4	C_src/ADPCM_SBC.h	/^   ADPCM_dec_t ADPCM_DEC_band4;$/;"	m	struct:ADPCM_SBDecoder_t
+ADPCM_ENC_band0	C_src/ADPCM_SBC.h	/^   ADPCM_enc_t ADPCM_ENC_band0;\/*instantiate the coder band0*\/$/;"	m	struct:ADPCM_SBCoder_t
+ADPCM_ENC_band1	C_src/ADPCM_SBC.h	/^   ADPCM_enc_t ADPCM_ENC_band1;\/*instantiate the coder band1*\/$/;"	m	struct:ADPCM_SBCoder_t
+ADPCM_ENC_band2	C_src/ADPCM_SBC.h	/^   ADPCM_enc_t ADPCM_ENC_band2;\/*instantiate the coder band2*\/$/;"	m	struct:ADPCM_SBCoder_t
+ADPCM_ENC_band3	C_src/ADPCM_SBC.h	/^   ADPCM_enc_t ADPCM_ENC_band3;\/*instantiate the coder band3*\/$/;"	m	struct:ADPCM_SBCoder_t
+ADPCM_ENC_band4	C_src/ADPCM_SBC.h	/^   ADPCM_enc_t ADPCM_ENC_band4;\/*instantiate the coder band4*\/$/;"	m	struct:ADPCM_SBCoder_t
+ADPCM_H_INCLUDED	C_src/ADPCM.h	9;"	d
+ADPCM_SBCoder	co_testing/CODEC/main.c	/^ADPCM_SBCoder_t ADPCM_SBCoder;$/;"	v
+ADPCM_SBCoder_init	C_src/ADPCM_SBC.c	/^void ADPCM_SBCoder_init( ADPCM_SBCoder_t *ADPCM_SBCoder_obj,$/;"	f
+ADPCM_SBCoder_process	C_src/ADPCM_SBC.c	/^void ADPCM_SBCoder_process( ADPCM_SBCoder_t *ADPCM_SBCoder_obj)$/;"	f
+ADPCM_SBCoder_t	C_src/ADPCM_SBC.h	/^typedef struct ADPCM_SBCoder_t $/;"	s
+ADPCM_SBCoder_t	C_src/ADPCM_SBC.h	/^}ADPCM_SBCoder_t;$/;"	t	typeref:struct:ADPCM_SBCoder_t
+ADPCM_SBDecoder	co_testing/CODEC/main.c	/^ADPCM_SBDecoder_t ADPCM_SBDecoder;$/;"	v
+ADPCM_SBDecoder_init	C_src/ADPCM_SBC.c	/^void ADPCM_SBDecoder_init(ADPCM_SBDecoder_t *ADPCM_SBDecoder_obj,$/;"	f
+ADPCM_SBDecoder_process	C_src/ADPCM_SBC.c	/^void ADPCM_SBDecoder_process( ADPCM_SBDecoder_t *ADPCM_SBDecoder_obj)$/;"	f
+ADPCM_SBDecoder_t	C_src/ADPCM_SBC.h	/^typedef struct ADPCM_SBDecoder_t $/;"	s
+ADPCM_SBDecoder_t	C_src/ADPCM_SBC.h	/^}ADPCM_SBDecoder_t;$/;"	t	typeref:struct:ADPCM_SBDecoder_t
+ADPCM_coder	MATLAB/src/ADPCM_coder.m	/^function [z, history_out] = ADPCM_coder(x, mu, nbit, history_in, mode)$/;"	f
+ADPCM_dec	co_testing/unit_tests/ADPCM_Dec/test_ADPCMdec.c	/^ADPCM_dec_t ADPCM_dec;$/;"	v
+ADPCM_dec_init	C_src/ADPCM.c	/^void ADPCM_dec_init( ADPCM_dec_t *ADPCM_dec_obj,$/;"	f
+ADPCM_dec_process	C_src/ADPCM.c	/^void ADPCM_dec_process(ADPCM_dec_t *ADPCM_dec_obj)$/;"	f
+ADPCM_dec_t	C_src/ADPCM.h	/^typedef struct ADPCM_dec_t {$/;"	s
+ADPCM_dec_t	C_src/ADPCM.h	/^}ADPCM_dec_t;$/;"	t	typeref:struct:ADPCM_dec_t
+ADPCM_decoder	MATLAB/src/ADPCM_decoder.m	/^function [x, history_out] = ADPCM_decoder(z, mu, nbit, history_in, mode)$/;"	f
+ADPCM_enc	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	/^ADPCM_enc_t ADPCM_enc;$/;"	v
+ADPCM_enc_init	C_src/ADPCM.c	/^void ADPCM_enc_init( ADPCM_enc_t *ADPCM_enc_obj,$/;"	f
+ADPCM_enc_process	C_src/ADPCM.c	/^void ADPCM_enc_process(ADPCM_enc_t *ADPCM_enc_obj)$/;"	f
+ADPCM_enc_t	C_src/ADPCM.h	/^typedef struct ADPCM_enc_t {$/;"	s
+ADPCM_enc_t	C_src/ADPCM.h	/^}ADPCM_enc_t;$/;"	t	typeref:struct:ADPCM_enc_t
+ALIGN16	C_src/common.h	65;"	d
+A_POW_F	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	292;"	d
+A_POW_S	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	293;"	d
+A_POW_T	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	294;"	d
+A_WEIGHT	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	298;"	d
+Align_Nfft	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long Align_Nfft;$/;"	v
+Align_Nfft_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long Align_Nfft_16k = 1024;$/;"	v
+Align_Nfft_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long Align_Nfft_8k = 512;$/;"	v
+BLOCKSIZE	co_testing/CODEC/makefile	/^  BLOCKSIZE = 48   $/;"	m
+BLOCKSIZE	co_testing/unit_tests/ADPCM_Dec/makefile	/^BLOCKSIZE = 48  # DO NOT CHANGE FOR UNIT TESTS $/;"	m
+BLOCKSIZE	co_testing/unit_tests/ADPCM_Enc/makefile	/^BLOCKSIZE = 48  # DO NOT CHANGE FOR UNIT TESTS $/;"	m
+BLOCKSIZE	co_testing/unit_tests/BitPacker/makefile	/^BLOCKSIZE = 48  # DO NOT CHANGE FOR UNIT TESTS $/;"	m
+BLOCKSIZE	co_testing/unit_tests/QMF_2bank_FB/makefile	/^BLOCKSIZE = 48  # DO NOT CHANGE FOR UNIT TESTS $/;"	m
+BLOCKSIZE	co_testing/unit_tests/QMF_Analysis/makefile	/^BLOCKSIZE = 48  # DO NOT CHANGE FOR UNIT TESTS $/;"	m
+BLOCKSIZE	co_testing/unit_tests/QMF_Synthesis/makefile	/^BLOCKSIZE = 48  # DO NOT CHANGE FOR UNIT TESTS $/;"	m
+BLOCKSIZE	co_testing/unit_tests/QMF_full_FB/makefile	/^BLOCKSIZE = 48  # DO NOT CHANGE FOR UNIT TESTS $/;"	m
+BLOCK_SIZE	C_src/common.h	31;"	d
+BLOCK_SIZE	C_src/common.h	33;"	d
+BUFFERSIZE	C_src/globals.h	8;"	d
+BUILD	scripts/common.mk	/^BUILD = @$(CC) $(CFLAGS) $(SEARCH) -o'$@' $< -DBUFFERSIZE=$(BLOCKSIZE)$/;"	m
+BitDepack	C_src/ADPCM_SBC.h	/^   BitDepack_t BitDepack;$/;"	m	struct:ADPCM_SBDecoder_t
+BitDepack	co_testing/unit_tests/BitPacker/test_BitPacker.c	/^  BitDepack_t BitDepack;$/;"	v
+BitDepack_t	C_src/BitPacker.h	/^typedef struct BitDepack_t$/;"	s
+BitDepack_t	C_src/BitPacker.h	/^}BitDepack_t;$/;"	t	typeref:struct:BitDepack_t
+BitDepacker_init	C_src/BitPacker.c	/^void BitDepacker_init( BitDepack_t *BitDepack_obj,$/;"	f
+BitDepacker_process	C_src/BitPacker.c	/^void BitDepacker_process(BitDepack_t *BitDepack_obj)$/;"	f
+BitPack	C_src/ADPCM_SBC.h	/^   BitPack_t BitPack; \/*instantiate the bitpacker*\/$/;"	m	struct:ADPCM_SBCoder_t
+BitPack	co_testing/unit_tests/BitPacker/test_BitPacker.c	/^  BitPack_t BitPack;$/;"	v
+BitPack_t	C_src/BitPacker.h	/^typedef struct BitPack_t$/;"	s
+BitPack_t	C_src/BitPacker.h	/^}BitPack_t;$/;"	t	typeref:struct:BitPack_t
+BitPacker_init	C_src/BitPacker.c	/^void BitPacker_init(BitPack_t *BitPack_obj,$/;"	f
+BitPacker_process	C_src/BitPacker.c	/^void BitPacker_process(BitPack_t *BitPack_obj)$/;"	f
+CC	scripts/common.mk	/^CC = gcc$/;"	m
+CRITERIUM_FOR_SILENCE_OF_5_SAMPLES	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	111;"	d	file:
+Crude_DelayConf	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  float Crude_DelayConf;$/;"	m	struct:__anon2
+Crude_DelayEst	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long  Crude_DelayEst;$/;"	m	struct:__anon2
+DADD	C_src/common.h	69;"	d
+DATAPADDING_MSECS	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	127;"	d
+DC_block	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqdsp.c	/^void DC_block( float * data, long Nsamples )$/;"	f
+DEBUG_FR	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	767;"	d	file:
+DEL	scripts/common.mk	/^DEL = rm -Rf$/;"	m
+DIRLIST	co_testing/makefile	/^DIRLIST =\\$/;"	m
+DMUL	C_src/common.h	90;"	d
+DMULA	C_src/common.h	83;"	d
+DPACKL	C_src/common.h	120;"	d
+DPACKV	C_src/common.h	113;"	d
+DSMUL	C_src/common.h	106;"	d
+DSMULA	C_src/common.h	99;"	d
+DSP_INCLUDED	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.h	114;"	d
+DSUB	C_src/common.h	76;"	d
+D_POW_F	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	288;"	d
+D_POW_S	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	289;"	d
+D_POW_T	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	290;"	d
+D_WEIGHT	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	297;"	d
+Downsample	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long Downsample;$/;"	v
+Downsample_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long Downsample_16k = 64;$/;"	v
+Downsample_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long Downsample_8k = 32;$/;"	v
+Dz	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	156;"	d
+EPS	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	130;"	d
+ERROR_INFO	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^} ERROR_INFO;$/;"	t	typeref:struct:__anon2
+EXECUTABLE	co_testing/CODEC/makefile	/^EXECUTABLE = ex_test_$(TNAME).out$/;"	m
+EXECUTABLE	co_testing/unit_tests/ADPCM_Dec/makefile	/^EXECUTABLE = ex_test_$(TNAME).out$/;"	m
+EXECUTABLE	co_testing/unit_tests/ADPCM_Enc/makefile	/^EXECUTABLE = ex_test_$(TNAME).out$/;"	m
+EXECUTABLE	co_testing/unit_tests/BitPacker/makefile	/^EXECUTABLE = ex_test_$(TNAME).out$/;"	m
+EXECUTABLE	co_testing/unit_tests/QMF_2bank_FB/makefile	/^EXECUTABLE = ex_test_$(TNAME).out$/;"	m
+EXECUTABLE	co_testing/unit_tests/QMF_Analysis/makefile	/^EXECUTABLE = ex_test_$(TNAME).out$/;"	m
+EXECUTABLE	co_testing/unit_tests/QMF_Synthesis/makefile	/^EXECUTABLE = ex_test_$(TNAME).out$/;"	m
+EXECUTABLE	co_testing/unit_tests/QMF_full_FB/makefile	/^EXECUTABLE = ex_test_$(TNAME).out$/;"	m
+FALSE	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	113;"	d
+FFT	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^void FFT(float * x, unsigned long N)$/;"	f
+FFTBitSwap	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^unsigned long * FFTBitSwap;$/;"	v
+FFTButter	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^unsigned long * FFTButter;$/;"	v
+FFTFree	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^void FFTFree(void)$/;"	f
+FFTInit	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^void FFTInit(unsigned long N)$/;"	f
+FFTLog2N	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^unsigned long   FFTLog2N;$/;"	v
+FFTNXCorr	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^unsigned long FFTNXCorr($/;"	f
+FFTPhi	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^float         * FFTPhi;$/;"	v
+FFTSwapInitialised	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^unsigned long   FFTSwapInitialised = 0;$/;"	v
+FILT_LEN	C_src/common.h	35;"	d
+FIXDB	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	139;"	d
+FNAMES	co_testing/CODEC/makefile	/^FNAMES = ..\/..\/training_data\/belasting.wav\\$/;"	m
+Fs	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long Fs = 0L;$/;"	v
+Fs_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long Fs_16k = 16000L;$/;"	v
+Fs_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long Fs_8k = 8000L;$/;"	v
+IFFT	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^void IFFT(float * x, unsigned long N)$/;"	f
+IIRFilt	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^void IIRFilt($/;"	f
+IIRsos	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^void IIRsos($/;"	f
+INPUTWAVFILE	C_src/globals.h	11;"	d
+ITU_RESULTS_FILE	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	111;"	d	file:
+InIIR_Hsos	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqdsp.c	/^float *InIIR_Hsos;$/;"	v
+InIIR_Hsos_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^float InIIR_Hsos_16k[LINIIR] =$/;"	v
+InIIR_Hsos_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^float InIIR_Hsos_8k[LINIIR] =$/;"	v
+InIIR_Nsos	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqdsp.c	/^long InIIR_Nsos;$/;"	v
+InIIR_Nsos	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long InIIR_Nsos;$/;"	v
+InIIR_Nsos_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long InIIR_Nsos_16k = 12L;$/;"	v
+InIIR_Nsos_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^long InIIR_Nsos_8k = 8L;$/;"	v
+JOINSPEECHLGTH	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	134;"	d
+LFBANK	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	125;"	d
+LINIIR	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	117;"	d
+LINIIR	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	123;"	d
+LINK	scripts/common.mk	/^LINK = @$(CC) $(LFLAGS) -o '$@' $(OBJS) $(LIBS)$/;"	m
+LSMJ	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	124;"	d
+Largest_uttsize	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long Largest_uttsize;$/;"	m	struct:__anon2
+LoadWav	MATLAB/utils/LoadWav.m	/^function [x fs nbits nr_channels] = LoadWav(file_path)$/;"	f
+Lpq_weight	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^float Lpq_weight (int         start_frame,$/;"	f
+MAKE	scripts/common.mk	/^MAKE = make$/;"	m
+MAXNUTTERANCES	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	119;"	d
+MAX_NUMBER_OF_BAD_INTERVALS	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	807;"	d	file:
+MAX_SCALE	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	1002;"	d	file:
+MCOMMAND	scripts/common.mk	/^MCOMMAND = octave$/;"	m
+MINIMUM_NUMBER_OF_BAD_FRAMES_IN_BAD_INTERVAL	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	1157;"	d	file:
+MINSPEECHLGTH	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	132;"	d
+MINUTTLENGTH	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	136;"	d
+MIN_SCALE	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	1006;"	d	file:
+MULA	MATLAB/utils/MULA.m	/^function accum_out = MULA(accum, x, y)$/;"	f
+N	co_testing/unit_tests/ADPCM_Dec/test_ADPCMdec.c	22;"	d	file:
+N	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	22;"	d	file:
+N	co_testing/unit_tests/QMF_2bank_FB/test_2bank_FB.c	21;"	d	file:
+N	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	21;"	d	file:
+N	co_testing/unit_tests/QMF_Synthesis/test_QMFS.c	21;"	d	file:
+NB_MODE	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	177;"	d
+NUMBER_OF_PSQM_FRAMES_PER_SYLLABE	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	688;"	d	file:
+Nb	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^int Nb ;$/;"	v
+Nfmax	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	145;"	d
+Nsamples	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long  Nsamples;$/;"	m	struct:__anon1
+Nsurf_samples	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long Nsurf_samples;$/;"	m	struct:__anon2
+Nutterances	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long Nutterances;$/;"	m	struct:__anon2
+OUTPUTWAVFILE	C_src/globals.h	12;"	d
+P	co_testing/unit_tests/ADPCM_Dec/test_ADPCMdec.c	21;"	d	file:
+P	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	21;"	d	file:
+P	co_testing/unit_tests/QMF_2bank_FB/test_2bank_FB.c	20;"	d	file:
+P	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	20;"	d	file:
+P	co_testing/unit_tests/QMF_Synthesis/test_QMFS.c	20;"	d	file:
+PACKH	MATLAB/utils/PACKH.m	/^function y = PACKH(x)$/;"	f
+PCM_WAVE_CHUNK_HEADER	C_src/wavpcm_io.c	/^struct PCM_WAVE_CHUNK_HEADER$/;"	s	file:
+PCM_WAVE_HEADER	C_src/wavpcm_io.c	/^struct PCM_WAVE_HEADER$/;"	s	file:
+PESQ	scripts/common.mk	/^PESQ = measure_pesq.out$/;"	m
+PMAX	co_testing/unit_tests/BitPacker/test_BitPacker.c	21;"	d	file:
+PMAX	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	20;"	d	file:
+QMFA_bank	co_testing/unit_tests/QMF_2bank_FB/test_2bank_FB.c	/^QMFA_bank_t QMFA_bank;$/;"	v
+QMFA_bank	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	/^QMFA_bank_t QMFA_bank;$/;"	v
+QMFA_bank_init	C_src/QMF.c	/^void QMFA_bank_init( QMFA_bank_t *QMFA_bank_obj, $/;"	f
+QMFA_bank_t	C_src/QMF.h	/^typedef struct QMFA_bank_t$/;"	s
+QMFA_bank_t	C_src/QMF.h	/^}QMFA_bank_t;$/;"	t	typeref:struct:QMFA_bank_t
+QMFA_process	C_src/QMF.c	/^void QMFA_process(QMFA_bank_t *QMFA_bank_obj)$/;"	f
+QMFS_bank	co_testing/unit_tests/QMF_2bank_FB/test_2bank_FB.c	/^QMFS_bank_t QMFS_bank;$/;"	v
+QMFS_bank	co_testing/unit_tests/QMF_Synthesis/test_QMFS.c	/^QMFS_bank_t QMFS_bank;$/;"	v
+QMFS_bank_init	C_src/QMF.c	/^void QMFS_bank_init( QMFS_bank_t *QMFS_bank_obj, $/;"	f
+QMFS_bank_t	C_src/QMF.h	/^typedef struct QMFS_bank_t$/;"	s
+QMFS_bank_t	C_src/QMF.h	/^}QMFS_bank_t;$/;"	t	typeref:struct:QMFS_bank_t
+QMFS_process	C_src/QMF.c	/^void QMFS_process(QMFS_bank_t *QMFS_bank_obj)$/;"	f
+QMF_analysis	MATLAB/src/QMF_analysis.m	/^function [y0, y1, history_out] = QMF_analysis(x, h, history_in, mode)$/;"	f
+QMF_bank0	C_src/SBC.h	/^   QMFA_bank_t QMF_bank0;   \/* instantiate the structure for bank0*\/$/;"	m	struct:SBC_AFB_t
+QMF_bank0	C_src/SBC.h	/^  QMFS_bank_t QMF_bank0;   \/*Instantiate QMF synthesis bank0*\/$/;"	m	struct:SBC_SFB_t
+QMF_bank00	C_src/SBC.h	/^   QMFA_bank_t QMF_bank00;  \/* instantiate the structure for bank00*\/$/;"	m	struct:SBC_AFB_t
+QMF_bank00	C_src/SBC.h	/^  QMFS_bank_t QMF_bank00;  \/*Instantiate QMF synthesis bank00*\/$/;"	m	struct:SBC_SFB_t
+QMF_bank000	C_src/SBC.h	/^   QMFA_bank_t QMF_bank000; \/* instantiate the structure for bank000*\/$/;"	m	struct:SBC_AFB_t
+QMF_bank000	C_src/SBC.h	/^  QMFS_bank_t QMF_bank000; \/*Instantiate QMF synthesis bank000*\/$/;"	m	struct:SBC_SFB_t
+QMF_bank01	C_src/SBC.h	/^   QMFA_bank_t QMF_bank01;  \/* instantiate the structure for bank01*\/$/;"	m	struct:SBC_AFB_t
+QMF_bank01	C_src/SBC.h	/^  QMFS_bank_t QMF_bank01;  \/*Instantiate QMF synthesis bank01*\/ $/;"	m	struct:SBC_SFB_t
+QMF_design	MATLAB/utils/QMF_design.m	/^function [h0, h1, f0, f1] = QMF_design(fs, df, Astop, fstep, Niter, FLength);$/;"	f
+QMF_synthesis	MATLAB/src/QMF_synthesis.m	/^function [x, history_out] = QMF_synthesis(y0, y1, f, history_in, mode)$/;"	f
+RECIP	C_src/ADPCM.c	/^static void RECIP(sint16 *dout, $/;"	f	file:
+RECIP	MATLAB/utils/RECIP.m	/^function [y,S] = RECIP(x,  mode)$/;"	f
+RESFILE	scripts/common.mk	/^RESFILE = RESULTS.txt;$/;"	m
+RealFFT	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^void RealFFT(float *x, unsigned long N) $/;"	f
+RealIFFT	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^void RealIFFT(float *x, unsigned long N)$/;"	f
+SATDB	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	138;"	d
+SATN	C_src/common.h	128;"	d
+SBC_AFB	C_src/ADPCM_SBC.h	/^   SBC_AFB_t SBC_AFB;  \/*Instantiate the analysis filterbank object*\/$/;"	m	struct:ADPCM_SBCoder_t
+SBC_AFB	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	/^SBC_AFB_t SBC_AFB;$/;"	v
+SBC_AFB_init	C_src/SBC.c	/^void SBC_AFB_init( SBC_AFB_t *SBC_AFB_obj,$/;"	f
+SBC_AFB_process	C_src/SBC.c	/^void SBC_AFB_process( SBC_AFB_t *SBC_AFB_obj)$/;"	f
+SBC_AFB_t	C_src/SBC.h	/^typedef struct SBC_AFB_t$/;"	s
+SBC_AFB_t	C_src/SBC.h	/^}SBC_AFB_t;$/;"	t	typeref:struct:SBC_AFB_t
+SBC_SFB	C_src/ADPCM_SBC.h	/^   SBC_SFB_t SBC_SFB;$/;"	m	struct:ADPCM_SBDecoder_t
+SBC_SFB	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	/^SBC_SFB_t SBC_SFB;$/;"	v
+SBC_SFB_init	C_src/SBC.c	/^void SBC_SFB_init( SBC_SFB_t *SBC_SFB_obj,$/;"	f
+SBC_SFB_process	C_src/SBC.c	/^void SBC_SFB_process( SBC_SFB_t *SBC_SFB_obj)$/;"	f
+SBC_SFB_t	C_src/SBC.h	/^typedef struct SBC_SFB_t$/;"	s
+SBC_SFB_t	C_src/SBC.h	/^}SBC_SFB_t;$/;"	t	typeref:struct:SBC_SFB_t
+SEARCH	scripts/common.mk	/^SEARCH = \\$/;"	m
+SEARCHBUFFER	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	128;"	d
+SEARCH_RANGE_IN_TRANSFORM_LENGTH	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	1196;"	d	file:
+SGN_EXT	C_src/BitPacker.c	/^static sint8 SGN_EXT(uint8 x, sint8 nb)$/;"	f	file:
+SIGNAL_INFO	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^} SIGNAL_INFO;$/;"	t	typeref:struct:__anon1
+SMEAR_RANGE	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	1130;"	d	file:
+SRC	co_testing/CODEC/makefile	/^SRC =               \\$/;"	m
+SRC	co_testing/unit_tests/ADPCM_Dec/makefile	/^SRC =               \\$/;"	m
+SRC	co_testing/unit_tests/ADPCM_Enc/makefile	/^SRC =               \\$/;"	m
+SRC	co_testing/unit_tests/BitPacker/makefile	/^SRC =               \\$/;"	m
+SRC	co_testing/unit_tests/QMF_2bank_FB/makefile	/^SRC =               \\$/;"	m
+SRC	co_testing/unit_tests/QMF_Analysis/makefile	/^SRC =               \\$/;"	m
+SRC	co_testing/unit_tests/QMF_Synthesis/makefile	/^SRC =               \\$/;"	m
+SRC	co_testing/unit_tests/QMF_full_FB/makefile	/^SRC =               \\$/;"	m
+Sl	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^float Sl, Sp;$/;"	v
+Sl_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	151;"	d
+Sl_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	148;"	d
+Sp	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^float Sl, Sp;$/;"	v
+Sp_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	150;"	d
+Sp_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	147;"	d
+TARGET_AVG_POWER	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	389;"	d	file:
+THRESHOLD_BAD_FRAMES	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	1045;"	d	file:
+TNAME	co_testing/CODEC/makefile	/^TNAME = CODEC$/;"	m
+TNAME	co_testing/unit_tests/ADPCM_Dec/makefile	/^TNAME = ADPCMdec$/;"	m
+TNAME	co_testing/unit_tests/ADPCM_Enc/makefile	/^TNAME = ADPCMenc$/;"	m
+TNAME	co_testing/unit_tests/BitPacker/makefile	/^TNAME = BitPacker$/;"	m
+TNAME	co_testing/unit_tests/QMF_2bank_FB/makefile	/^TNAME = 2bank_FB$/;"	m
+TNAME	co_testing/unit_tests/QMF_Analysis/makefile	/^TNAME = QMFA$/;"	m
+TNAME	co_testing/unit_tests/QMF_Synthesis/makefile	/^TNAME = QMFS$/;"	m
+TNAME	co_testing/unit_tests/QMF_full_FB/makefile	/^TNAME = full_FB$/;"	m
+TOPDIR	co_testing/CODEC/makefile	/^TOPDIR = ..\/..$/;"	m
+TOPDIR	co_testing/makefile	/^TOPDIR = ..$/;"	m
+TOPDIR	co_testing/unit_tests/ADPCM_Dec/makefile	/^TOPDIR = ..\/..\/..$/;"	m
+TOPDIR	co_testing/unit_tests/ADPCM_Enc/makefile	/^TOPDIR = ..\/..\/..$/;"	m
+TOPDIR	co_testing/unit_tests/BitPacker/makefile	/^TOPDIR = ..\/..\/..$/;"	m
+TOPDIR	co_testing/unit_tests/QMF_2bank_FB/makefile	/^TOPDIR = ..\/..\/..$/;"	m
+TOPDIR	co_testing/unit_tests/QMF_Analysis/makefile	/^TOPDIR = ..\/..\/..$/;"	m
+TOPDIR	co_testing/unit_tests/QMF_Synthesis/makefile	/^TOPDIR = ..\/..\/..$/;"	m
+TOPDIR	co_testing/unit_tests/QMF_full_FB/makefile	/^TOPDIR = ..\/..\/..$/;"	m
+TRUE	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	109;"	d
+TVDIR	scripts/common.mk	/^TVDIR = test_vectors\/test_name.txt$/;"	m
+TWOPI	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	112;"	d	file:
+TWOPI	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	141;"	d
+Tl	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	160;"	d
+Tn	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	166;"	d
+Ts	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	162;"	d
+Tt	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	164;"	d
+UttSearch_End	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long  UttSearch_End[MAXNUTTERANCES];$/;"	m	struct:__anon2
+UttSearch_Start	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long  UttSearch_Start[MAXNUTTERANCES];$/;"	m	struct:__anon2
+Utt_Delay	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long  Utt_Delay[MAXNUTTERANCES];$/;"	m	struct:__anon2
+Utt_DelayConf	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  float Utt_DelayConf[MAXNUTTERANCES];$/;"	m	struct:__anon2
+Utt_DelayEst	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long  Utt_DelayEst[MAXNUTTERANCES];$/;"	m	struct:__anon2
+Utt_End	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long  Utt_End[MAXNUTTERANCES];$/;"	m	struct:__anon2
+Utt_Start	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long  Utt_Start[MAXNUTTERANCES];$/;"	m	struct:__anon2
+VAD	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  float * VAD;$/;"	m	struct:__anon1
+VERBOSE	C_src/globals.h	14;"	d
+VPATH	scripts/common.mk	/^VPATH = \\$/;"	m
+WB_InIIR_Hsos	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^float * WB_InIIR_Hsos;$/;"	v
+WB_InIIR_Hsos_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^float WB_InIIR_Hsos_16k[LINIIR] = {$/;"	v
+WB_InIIR_Hsos_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^float WB_InIIR_Hsos_8k[LINIIR] = {$/;"	v
+WB_InIIR_Nsos	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^long WB_InIIR_Nsos;$/;"	v
+WB_InIIR_Nsos_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^long WB_InIIR_Nsos_16k = 1L;$/;"	v
+WB_InIIR_Nsos_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^long WB_InIIR_Nsos_8k = 1L;$/;"	v
+WB_MODE	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	178;"	d
+WHOLE_SIGNAL	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	121;"	d
+ZWICKER_POWER	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	513;"	d	file:
+__ADPCM_SBC_H__	C_src/ADPCM_SBC.h	10;"	d
+__BITPACKER_H__	C_src/BitPacker.h	11;"	d
+__COMMON_H__	C_src/common.h	10;"	d
+__GLOBAL_H__	C_src/globals.h	4;"	d
+__QMF_H__	C_src/QMF.h	10;"	d
+__SBC_H__	C_src/SBC.h	10;"	d
+abs_thresh_power	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^double *abs_thresh_power;$/;"	v
+abs_thresh_power_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double abs_thresh_power_16k [49] = {51286152.000000,     2454709.500000,     70794.593750,     4897.788574,     1174.897705,     $/;"	v
+abs_thresh_power_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double abs_thresh_power_8k [42] = {51286152.000000,     2454709.500000,     70794.593750,     4897.788574,     1174.897705,     $/;"	v
+activlev	MATLAB/utils/activlev.m	/^function [lev,af,fso,vad]=activlev(sp,fs,mode)$/;"	f
+adpcm_data_t	C_src/common.h	/^typedef struct adpcm_data_t$/;"	s
+adpcm_data_t	C_src/common.h	/^}adpcm_data_t;$/;"	t	typeref:struct:adpcm_data_t
+align_filter_dB	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^double align_filter_dB [26] [2] = {{0.,-500},$/;"	v
+alloc_other	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqio.c	/^void alloc_other( SIGNAL_INFO * ref_info, SIGNAL_INFO * deg_info, $/;"	f
+analysis_filter	C_src/ADPCM_SBC.c	/^sint16 analysis_filter[40] = {   17,   -31,   -17,    64,    28,$/;"	v
+apply_VAD	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqdsp.c	/^void apply_VAD( SIGNAL_INFO * pinfo, float * data, float * VAD, float * logVAD )$/;"	f
+apply_filter	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqdsp.c	/^void apply_filter ( float * data, long maxNsamples, int number_of_points, double filter_curve_db [][2] )$/;"	f
+apply_filters	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqdsp.c	/^void apply_filters( float * data, long Nsamples )$/;"	f
+apply_swap	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long  apply_swap;$/;"	m	struct:__anon1
+aud_data_t	C_src/common.h	/^typedef struct aud_data_t$/;"	s
+aud_data_t	C_src/common.h	/^}aud_data_t;$/;"	t	typeref:struct:aud_data_t
+aud_data_w_t	C_src/common.h	/^typedef struct aud_data_w_t$/;"	s
+aud_data_w_t	C_src/common.h	/^}aud_data_w_t; $/;"	t	typeref:struct:aud_data_w_t
+band0_buffer	co_testing/unit_tests/BitPacker/test_BitPacker.c	/^  adpcm_data_t band0_buffer[BLOCK_SIZE\/8];$/;"	v
+band1_buffer	co_testing/unit_tests/BitPacker/test_BitPacker.c	/^  adpcm_data_t band1_buffer[BLOCK_SIZE\/8];$/;"	v
+band2_buffer	co_testing/unit_tests/BitPacker/test_BitPacker.c	/^  adpcm_data_t band2_buffer[BLOCK_SIZE\/4];$/;"	v
+band3_buffer	co_testing/unit_tests/BitPacker/test_BitPacker.c	/^  adpcm_data_t band3_buffer[BLOCK_SIZE\/4];$/;"	v
+band4_buffer	co_testing/unit_tests/BitPacker/test_BitPacker.c	/^  adpcm_data_t band4_buffer[BLOCK_SIZE\/4];$/;"	v
+bitDepth	C_src/wavpcm_io.c	/^	short bitDepth;		\/* The bitdepth (bits per sample)              : 2 bytes *\/$/;"	m	struct:PCM_WAVE_HEADER	file:
+bitDepth	C_src/wavpcm_io.h	/^  int bitDepth;         \/* Bit depth of wave file. *\/$/;"	m	struct:wavpcm_input
+bitDepth	C_src/wavpcm_io.h	/^  int bitDepth;         \/* Bit depth of wave file. *\/$/;"	m	struct:wavpcm_output
+bit_buffer	co_testing/CODEC/main.c	/^bitstream bit_buffer[2][3*BLOCK_SIZE\/8]; \/\/ 2 channels 3 bits per sample average for 24kbps$/;"	v
+bitsout	co_testing/unit_tests/BitPacker/test_BitPacker.c	/^  bitstream bitsout[2][3*BLOCK_SIZE\/8];$/;"	v
+bitstream	C_src/common.h	/^typedef uint8_t bitstream ;$/;"	t
+blk_len	C_src/ADPCM.h	/^      sint16 blk_len;$/;"	m	struct:ADPCM_dec_t
+blk_len	C_src/ADPCM.h	/^      sint16 blk_len;$/;"	m	struct:ADPCM_enc_t
+blk_len	C_src/ADPCM_SBC.h	/^   sint32 blk_len; $/;"	m	struct:ADPCM_SBCoder_t
+blk_len	C_src/ADPCM_SBC.h	/^   sint32 blk_len; $/;"	m	struct:ADPCM_SBDecoder_t
+blk_len	C_src/QMF.h	/^  sint32 blk_len;$/;"	m	struct:QMFA_bank_t
+blk_len	C_src/QMF.h	/^  sint32 blk_len;$/;"	m	struct:QMFS_bank_t
+blk_len	co_testing/unit_tests/ADPCM_Dec/test_ADPCMdec.c	/^sint16 blk_len;$/;"	v
+blk_len	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	/^sint16 blk_len;$/;"	v
+blockAlign	C_src/wavpcm_io.c	/^	short blockAlign;	\/* Channels * Bitdepth \/ 8                     : 2 bytes *\/$/;"	m	struct:PCM_WAVE_HEADER	file:
+bytesPerSecond	C_src/wavpcm_io.c	/^	int bytesPerSecond;	\/* Number of bytes per second                  : 4 bytes *\/$/;"	m	struct:PCM_WAVE_HEADER	file:
+calc_VAD	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void calc_VAD( SIGNAL_INFO * sinfo )$/;"	f
+centre_of_band_bark	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^double *centre_of_band_bark;$/;"	v
+centre_of_band_bark_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double centre_of_band_bark_16k [49] = { 0.078672,     0.316341,     0.636559,     0.961246,     1.290450,     $/;"	v
+centre_of_band_bark_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double centre_of_band_bark_8k [42] = { 0.078672,     0.316341,     0.636559,     0.961246,     1.290450,     $/;"	v
+centre_of_band_hz	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^double *centre_of_band_hz;$/;"	v
+centre_of_band_hz_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double centre_of_band_hz_16k [49] = { 7.867213,     31.634144,     63.655895,     96.124611,     129.044968,     $/;"	v
+centre_of_band_hz_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double centre_of_band_hz_8k [42] = { 7.867213,     31.634144,     63.655895,     96.124611,     129.044968,     $/;"	v
+channels	C_src/wavpcm_io.c	/^	short channels;		\/* Number of channels                          : 2 bytes *\/$/;"	m	struct:PCM_WAVE_HEADER	file:
+channels	C_src/wavpcm_io.h	/^  int channels;         \/* Used by the engine, so it knows channels available. *\/$/;"	m	struct:wavpcm_input
+channels	C_src/wavpcm_io.h	/^  int channels;         \/* Used by the engine, so it knows channels available. *\/$/;"	m	struct:wavpcm_output
+compute_delay	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^int compute_delay (long              start_sample, $/;"	f
+convert_to_FLPT	MATLAB/utils/convert_to_FLPT.m	/^function y = convert_to_FLPT(x, nbits, nfrac)$/;"	f
+convert_to_FXPT	MATLAB/utils/convert_to_FXPT.m	/^function y = convert_to_FXPT(x, nbits, nfrac)$/;"	f
+crude_align	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqdsp.c	/^void crude_align($/;"	f
+currentPosition	C_src/wavpcm_io.h	/^  int currentPosition;  \/* Current processing position in file *\/$/;"	m	struct:wavpcm_input
+currentPosition	C_src/wavpcm_io.h	/^  int currentPosition;  \/* Current processing position in file *\/$/;"	m	struct:wavpcm_output
+data	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  float * data;$/;"	m	struct:__anon1
+dataLength	C_src/wavpcm_io.h	/^  int dataLength;       \/* Length of data written (output only). *\/$/;"	m	struct:wavpcm_output
+dataStartPos	C_src/wavpcm_io.h	/^  int dataStartPos;     \/* Position in file were waveform data begins (input only). *\/$/;"	m	struct:wavpcm_input
+dataStartPos	C_src/wavpcm_io.h	/^  int dataStartPos;     \/* Position in file were waveform data begins (input only). *\/$/;"	m	struct:wavpcm_output
+data_in	co_testing/unit_tests/ADPCM_Dec/test_ADPCMdec.c	/^adpcm_data_t data_in[P*BLOCK_SIZE];$/;"	v
+data_in	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	/^aud_data_t data_in[P*BLOCK_SIZE];$/;"	v
+data_in	co_testing/unit_tests/BitPacker/test_BitPacker.c	/^  adpcm_data_t data_in[5][PMAX*BLOCK_SIZE\/4];$/;"	v
+data_in	co_testing/unit_tests/QMF_2bank_FB/test_2bank_FB.c	/^aud_data_t data_in[P*BLOCK_SIZE];$/;"	v
+data_in	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	/^aud_data_t data_in[P*BLOCK_SIZE];$/;"	v
+data_in	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	/^aud_data_t data_in[PMAX*BLOCK_SIZE];$/;"	v
+data_in_bank0	co_testing/unit_tests/QMF_Synthesis/test_QMFS.c	/^aud_data_t data_in_bank0[P*BLOCK_SIZE\/2];$/;"	v
+data_in_bank1	co_testing/unit_tests/QMF_Synthesis/test_QMFS.c	/^aud_data_t data_in_bank1[P*BLOCK_SIZE\/2];$/;"	v
+data_in_buffer	C_src/ADPCM.h	/^      adpcm_data_t data_in_buffer[BLOCK_SIZE\/4];$/;"	m	struct:ADPCM_dec_t
+data_in_buffer	C_src/ADPCM.h	/^      aud_data_t data_in_buffer[BLOCK_SIZE\/4];$/;"	m	struct:ADPCM_enc_t
+data_in_buffer	C_src/QMF.h	/^  aud_data_t data_in_buffer[BLOCK_SIZE]; $/;"	m	struct:QMFA_bank_t
+data_in_buffer_HI	C_src/QMF.h	/^  aud_data_t data_in_buffer_HI[BLOCK_SIZE]; $/;"	m	struct:QMFS_bank_t
+data_in_buffer_LO	C_src/QMF.h	/^  aud_data_t data_in_buffer_LO[BLOCK_SIZE]; $/;"	m	struct:QMFS_bank_t
+data_out_HI_ptr	C_src/QMF.h	/^  aud_data_t *data_out_HI_ptr; \/* pointer to data out HI branch*\/$/;"	m	struct:QMFA_bank_t
+data_out_LO_ptr	C_src/QMF.h	/^  aud_data_t *data_out_LO_ptr; \/* pointer to data out LO branch*\/$/;"	m	struct:QMFA_bank_t
+data_out_bank0_dut	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	/^aud_data_t data_out_bank0_dut[P*BLOCK_SIZE\/2];$/;"	v
+data_out_bank0_ref	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	/^aud_data_t data_out_bank0_ref[P*BLOCK_SIZE\/2];$/;"	v
+data_out_bank1_dut	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	/^aud_data_t data_out_bank1_dut[P*BLOCK_SIZE\/2];$/;"	v
+data_out_bank1_ref	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	/^aud_data_t data_out_bank1_ref[P*BLOCK_SIZE\/2];$/;"	v
+data_out_buffer	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	/^aud_data_t data_out_buffer[BLOCK_SIZE];$/;"	v
+data_out_dut	co_testing/unit_tests/ADPCM_Dec/test_ADPCMdec.c	/^aud_data_t data_out_dut[P*BLOCK_SIZE];$/;"	v
+data_out_dut	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	/^adpcm_data_t data_out_dut[P*BLOCK_SIZE];$/;"	v
+data_out_dut	co_testing/unit_tests/BitPacker/test_BitPacker.c	/^  adpcm_data_t data_out_dut[5][PMAX*BLOCK_SIZE\/4];$/;"	v
+data_out_dut	co_testing/unit_tests/QMF_2bank_FB/test_2bank_FB.c	/^aud_data_t data_out_dut[P*BLOCK_SIZE];$/;"	v
+data_out_dut	co_testing/unit_tests/QMF_Synthesis/test_QMFS.c	/^aud_data_t data_out_dut[P*BLOCK_SIZE];$/;"	v
+data_out_dut	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	/^aud_data_t data_out_dut[PMAX*BLOCK_SIZE];$/;"	v
+data_out_ptr	C_src/ADPCM.h	/^      adpcm_data_t *data_out_ptr; \/* pointer to data out *\/$/;"	m	struct:ADPCM_enc_t
+data_out_ptr	C_src/ADPCM.h	/^      aud_data_t *data_out_ptr; \/* pointer to data out *\/$/;"	m	struct:ADPCM_dec_t
+data_out_ptr	C_src/QMF.h	/^  aud_data_t *data_out_ptr; \/* pointer to data out *\/$/;"	m	struct:QMFS_bank_t
+data_out_ref	co_testing/unit_tests/ADPCM_Dec/test_ADPCMdec.c	/^aud_data_t data_out_ref[P*BLOCK_SIZE];$/;"	v
+data_out_ref	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	/^adpcm_data_t data_out_ref[P*BLOCK_SIZE];$/;"	v
+data_out_ref	co_testing/unit_tests/QMF_2bank_FB/test_2bank_FB.c	/^aud_data_t data_out_ref[P*BLOCK_SIZE];$/;"	v
+data_out_ref	co_testing/unit_tests/QMF_Synthesis/test_QMFS.c	/^aud_data_t data_out_ref[P*BLOCK_SIZE];$/;"	v
+data_out_ref	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	/^aud_data_t data_out_ref[PMAX*BLOCK_SIZE];$/;"	v
+delay_buffer2	C_src/BitPacker.h	/^  adpcm_data_t delay_buffer2[BLOCK_SIZE\/4 + FILT_LEN-2];$/;"	m	struct:BitPack_t
+delay_buffer2_lim	C_src/BitPacker.h	/^  sint16 delay_buffer2_rd, delay_buffer2_wr, delay_buffer2_lim;$/;"	m	struct:BitPack_t
+delay_buffer2_rd	C_src/BitPacker.h	/^  sint16 delay_buffer2_rd, delay_buffer2_wr, delay_buffer2_lim;$/;"	m	struct:BitPack_t
+delay_buffer2_wr	C_src/BitPacker.h	/^  sint16 delay_buffer2_rd, delay_buffer2_wr, delay_buffer2_lim;$/;"	m	struct:BitPack_t
+delay_buffer3	C_src/BitPacker.h	/^  adpcm_data_t delay_buffer3[BLOCK_SIZE\/4 + FILT_LEN-2];$/;"	m	struct:BitPack_t
+delay_buffer3_lim	C_src/BitPacker.h	/^  sint16 delay_buffer3_rd, delay_buffer3_wr, delay_buffer3_lim;$/;"	m	struct:BitPack_t
+delay_buffer3_rd	C_src/BitPacker.h	/^  sint16 delay_buffer3_rd, delay_buffer3_wr, delay_buffer3_lim;$/;"	m	struct:BitPack_t
+delay_buffer3_wr	C_src/BitPacker.h	/^  sint16 delay_buffer3_rd, delay_buffer3_wr, delay_buffer3_lim;$/;"	m	struct:BitPack_t
+fileHandle	C_src/wavpcm_io.h	/^  FILE *fileHandle;     \/* File handle of open wave file. *\/$/;"	m	struct:wavpcm_input
+fileHandle	C_src/wavpcm_io.h	/^  FILE *fileHandle;     \/* File handle of open wave file. *\/$/;"	m	struct:wavpcm_output
+fileSize	C_src/wavpcm_io.c	/^	int fileSize;		\/* Contains the file size - 8                  : 4 bytes *\/$/;"	m	struct:PCM_WAVE_HEADER	file:
+file_exist	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqio.c	/^int file_exist( char * fname )$/;"	f
+file_name	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  char  file_name [128];$/;"	m	struct:__anon1
+filter	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	/^sint16 filter[FILT_LEN];$/;"	v
+filter	co_testing/unit_tests/QMF_Synthesis/test_QMFS.c	/^sint16 filter[FILT_LEN];$/;"	v
+filter_analysis	co_testing/unit_tests/QMF_2bank_FB/test_2bank_FB.c	/^sint16 filter_analysis[FILT_LEN];$/;"	v
+filter_analysis	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	/^sint16 filter_analysis[FILT_LEN];$/;"	v
+filter_synthesis	co_testing/unit_tests/QMF_2bank_FB/test_2bank_FB.c	/^sint16 filter_synthesis[FILT_LEN];$/;"	v
+filter_synthesis	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	/^sint16 filter_synthesis[FILT_LEN];$/;"	v
+fix_power_level	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^void fix_power_level (SIGNAL_INFO *info, char *name, long maxNsamples) $/;"	f
+flt_ptr	C_src/QMF.h	/^  sint16 *flt_ptr; \/*pointer to filter*\/$/;"	m	struct:QMFA_bank_t
+flt_ptr	C_src/QMF.h	/^  sint16 *flt_ptr; \/*pointer to filter*\/$/;"	m	struct:QMFS_bank_t
+freq_resp_compensation	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void freq_resp_compensation (int number_of_frames, float *pitch_pow_dens_ref, float *avg_pitch_pow_dens_ref, float *avg_pitch_pow_dens_deg, float constant)$/;"	f
+freq_warping	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void freq_warping (int number_of_hz_bands, float *hz_spectrum, int Nb, float *pitch_pow_dens, long frame) {$/;"	f
+gamma	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	158;"	d
+headerSize	C_src/wavpcm_io.c	/^	int headerSize;		\/* Contains the size of the description header : 4 bytes *\/$/;"	m	struct:PCM_WAVE_HEADER	file:
+history	C_src/QMF.h	/^  aud_data_t history[2][BLOCK_SIZE + FILT_LEN\/2 -1]; $/;"	m	struct:QMFA_bank_t
+history	C_src/QMF.h	/^  aud_data_t history[2][BLOCK_SIZE + FILT_LEN\/2 -1]; $/;"	m	struct:QMFS_bank_t
+id_searchwindows	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^int id_searchwindows( SIGNAL_INFO * ref_info, SIGNAL_INFO * deg_info,$/;"	f
+id_utterances	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void id_utterances( SIGNAL_INFO * ref_info, SIGNAL_INFO * deg_info,$/;"	f
+in_buffer0_0_0	C_src/SBC.h	/^  aud_data_t *in_buffer0_0_0; \/*points to input buffer0 of bank000*\/$/;"	m	struct:SBC_SFB_t
+in_buffer0_0_1	C_src/SBC.h	/^  aud_data_t *in_buffer0_0_1; \/*points to input buffer1 of bank000*\/$/;"	m	struct:SBC_SFB_t
+in_buffer0_1	C_src/SBC.h	/^  aud_data_t *in_buffer0_1;   \/*points to input buffer1 of bank00*\/$/;"	m	struct:SBC_SFB_t
+in_buffer1_0	C_src/SBC.h	/^  aud_data_t *in_buffer1_0;   \/*points to input buffer0 of bank01*\/$/;"	m	struct:SBC_SFB_t
+in_buffer1_1	C_src/SBC.h	/^  aud_data_t *in_buffer1_1;   \/*points to input buffer1 of bank01*\/$/;"	m	struct:SBC_SFB_t
+inp_band0	C_src/BitPacker.h	/^  adpcm_data_t inp_band0[BLOCK_SIZE\/8];$/;"	m	struct:BitPack_t
+inp_band1	C_src/BitPacker.h	/^  adpcm_data_t inp_band1[BLOCK_SIZE\/8];$/;"	m	struct:BitPack_t
+inp_band2	C_src/BitPacker.h	/^  adpcm_data_t inp_band2[BLOCK_SIZE\/4];$/;"	m	struct:BitPack_t
+inp_band3	C_src/BitPacker.h	/^  adpcm_data_t inp_band3[BLOCK_SIZE\/4];$/;"	m	struct:BitPack_t
+inp_band4	C_src/BitPacker.h	/^  adpcm_data_t inp_band4[BLOCK_SIZE\/4];$/;"	m	struct:BitPack_t
+inp_blk_len	C_src/SBC.h	/^   sint32 inp_blk_len;$/;"	m	struct:SBC_AFB_t
+inp_buffer	C_src/ADPCM_SBC.h	/^   aud_data_t *inp_buffer; $/;"	m	struct:ADPCM_SBCoder_t
+inp_buffer	C_src/SBC.h	/^   aud_data_t *inp_buffer; \/* points to the input buffer of QMF_bank0*\/$/;"	m	struct:SBC_AFB_t
+inp_buffer0	C_src/BitPacker.h	/^  bitstream inp_buffer0[3*BLOCK_SIZE\/8];$/;"	m	struct:BitDepack_t
+inp_buffer1	C_src/BitPacker.h	/^  bitstream inp_buffer1[3*BLOCK_SIZE\/8];$/;"	m	struct:BitDepack_t
+inp_buffer_L	C_src/ADPCM_SBC.h	/^   bitstream *inp_buffer_L; $/;"	m	struct:ADPCM_SBDecoder_t
+inp_buffer_R	C_src/ADPCM_SBC.h	/^   bitstream *inp_buffer_R; $/;"	m	struct:ADPCM_SBDecoder_t
+input_filter	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  long  input_filter;$/;"	m	struct:__anon1
+input_filter	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void input_filter($/;"	f
+integral_of	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^float integral_of (float *x, long frames_after_start) {$/;"	f
+intensity_warping_of	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void intensity_warping_of (float *loudness_dens, int frame, float *pitch_pow_dens)$/;"	f
+interpolate	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqdsp.c	/^float interpolate (float    freq, $/;"	f
+intlog2	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^int intlog2(unsigned long X)$/;"	f
+ispow2	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^int ispow2(unsigned long X)$/;"	f
+kais	MATLAB/utils/kais.m	/^function h = kais(fc, fs, df, Astop, odd);$/;"	f
+l	C_src/common.h	/^  sint16 l; \/*Left channel sample*\/$/;"	m	struct:aud_data_t
+l	C_src/common.h	/^  sint64 l; \/*Left channel wide type*\/$/;"	m	struct:aud_data_w_t
+l	C_src/common.h	/^  sint8 l; \/*Left channel sample*\/$/;"	m	struct:adpcm_data_t
+load_src	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqio.c	/^void load_src( long * Error_Flag, char ** Error_Type,$/;"	f
+logVAD	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  float * logVAD;$/;"	m	struct:__anon1
+main	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^int main (int argc, const char *argv []) {$/;"	f
+main	co_testing/CODEC/main.c	/^int main (int argc, char *argv[])$/;"	f
+main	co_testing/unit_tests/ADPCM_Dec/test_ADPCMdec.c	/^int main(void)$/;"	f
+main	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	/^int main(void)$/;"	f
+main	co_testing/unit_tests/BitPacker/test_BitPacker.c	/^int main(void)$/;"	f
+main	co_testing/unit_tests/QMF_2bank_FB/test_2bank_FB.c	/^int main(void)$/;"	f
+main	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	/^int main(void)$/;"	f
+main	co_testing/unit_tests/QMF_Synthesis/test_QMFS.c	/^int main(void)$/;"	f
+main	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	/^int main(void)$/;"	f
+make_stereo_file	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqio.c	/^void make_stereo_file (char *stereo_path_name, SIGNAL_INFO *ref_info, SIGNAL_INFO *deg_info) {$/;"	f
+make_stereo_file2	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqio.c	/^void make_stereo_file2 (char *stereo_path_name, SIGNAL_INFO *ref_info, float *deg) {$/;"	f
+mapped_mos	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  float mapped_mos;$/;"	m	struct:__anon2
+max	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.h	110;"	d
+max	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	174;"	d
+maxfilt	MATLAB/utils/maxfilt.m	/^function [y,k,y0]=maxfilt(x,f,n,d,x0)$/;"	f
+maximum_of	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^float maximum_of (float *x, long start, long stop) {$/;"	f
+min	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.h	106;"	d
+min	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	170;"	d
+mode	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  short mode;$/;"	m	struct:__anon2
+mu	C_src/ADPCM.h	/^      sint16 mu;$/;"	m	struct:ADPCM_dec_t
+mu	C_src/ADPCM.h	/^      sint16 mu;$/;"	m	struct:ADPCM_enc_t
+mu	co_testing/unit_tests/ADPCM_Dec/test_ADPCMdec.c	/^sint16 mu;$/;"	v
+mu	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	/^sint16 mu;$/;"	v
+multiply_with_asymmetry_factor	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void multiply_with_asymmetry_factor (float      *disturbance_dens, $/;"	f
+name	C_src/wavpcm_io.c	/^	char name[4];		\/* Name of chunk                                 : 4 bytes *\/$/;"	m	struct:PCM_WAVE_CHUNK_HEADER	file:
+nbit	C_src/ADPCM.h	/^      sint16 nbit;$/;"	m	struct:ADPCM_enc_t
+nbit	C_src/ADPCM.h	/^      sint8 nbit;$/;"	m	struct:ADPCM_dec_t
+nbit	co_testing/unit_tests/ADPCM_Dec/test_ADPCMdec.c	/^sint8 nbit;$/;"	v
+nbit	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	/^sint8 nbit;$/;"	v
+nextpow2	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^unsigned long nextpow2(unsigned long X)$/;"	f
+nr_of_hz_bands_per_bark_band	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^int *nr_of_hz_bands_per_bark_band;$/;"	v
+nr_of_hz_bands_per_bark_band_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^int nr_of_hz_bands_per_bark_band_16k [49] = { 1,    1,    1,    1,    1,    $/;"	v
+nr_of_hz_bands_per_bark_band_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^int nr_of_hz_bands_per_bark_band_8k [42] = { 1,    1,    1,    1,    1,    $/;"	v
+one_by_x0	C_src/ADPCM.c	/^sint16 one_by_x0[32] ={16132, 15650, 15197, 14769, 14364, 13981, 13618, 13273, $/;"	v
+one_by_x0sq	C_src/ADPCM.c	/^sint16 one_by_x0sq[32]  = {31768, 29899, 28191, 26625, 25186, 23861, 22637, 21506,$/;"	v
+opt_mu	C_src/ADPCM_SBC.c	/^sint16 opt_mu[5] = {13222, 13956, 13120, 13160, 16361};$/;"	v
+out_band0_ptr	C_src/BitPacker.h	/^  adpcm_data_t *out_band0_ptr  ;$/;"	m	struct:BitDepack_t
+out_band1_ptr	C_src/BitPacker.h	/^  adpcm_data_t *out_band1_ptr  ;$/;"	m	struct:BitDepack_t
+out_band2_ptr	C_src/BitPacker.h	/^  adpcm_data_t *out_band2_ptr  ;$/;"	m	struct:BitDepack_t
+out_band3_ptr	C_src/BitPacker.h	/^  adpcm_data_t *out_band3_ptr  ;$/;"	m	struct:BitDepack_t
+out_band4_ptr	C_src/BitPacker.h	/^  adpcm_data_t *out_band4_ptr  ;$/;"	m	struct:BitDepack_t
+out_blk_len	C_src/SBC.h	/^  sint32 out_blk_len;$/;"	m	struct:SBC_SFB_t
+out_buffer	co_testing/CODEC/main.c	/^aud_data_t out_buffer[BLOCK_SIZE];$/;"	v
+out_ptr_L	C_src/BitPacker.h	/^  bitstream *out_ptr_L;$/;"	m	struct:BitPack_t
+out_ptr_R	C_src/BitPacker.h	/^  bitstream *out_ptr_R;$/;"	m	struct:BitPack_t
+path_name	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  char  path_name[512];$/;"	m	struct:__anon1
+pesq_measure	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^void pesq_measure (SIGNAL_INFO * ref_info, SIGNAL_INFO * deg_info,$/;"	f
+pesq_mos	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesq.h	/^  float pesq_mos;$/;"	m	struct:__anon2
+pesq_psychoacoustic_model	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void pesq_psychoacoustic_model(SIGNAL_INFO    * ref_info, $/;"	f
+pow_dens_correction_factor	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^double *pow_dens_correction_factor;$/;"	v
+pow_dens_correction_factor_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double pow_dens_correction_factor_16k [49] = { 100.000000,     99.999992,     100.000000,     100.000008,     100.000008,     $/;"	v
+pow_dens_correction_factor_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double pow_dens_correction_factor_8k [42] = { 100.000000,     99.999992,     100.000000,     100.000008,     100.000008, $/;"	v
+pow_of	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^double pow_of (const float * const x, long start_sample, long stop_sample, long divisor) {$/;"	f
+printtime	MATLAB/utils/printtime.m	/^function printtime()$/;"	f
+pseudo_Lp	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^float pseudo_Lp (int n, float *x, float p) {   $/;"	f
+r	C_src/common.h	/^  sint16 r; \/*Right channel sample*\/$/;"	m	struct:aud_data_t
+r	C_src/common.h	/^  sint64 r; \/*Right channel wide type*\/$/;"	m	struct:aud_data_w_t
+r	C_src/common.h	/^  sint8 r; \/*Right channel sample*\/$/;"	m	struct:adpcm_data_t
+resource	C_src/wavpcm_io.h	/^  char *resource;       \/* The file, device or module name as applicable. *\/$/;"	m	struct:wavpcm_input
+resource	C_src/wavpcm_io.h	/^  char *resource;       \/* The file, device or module name as applicable. *\/$/;"	m	struct:wavpcm_output
+riff	C_src/wavpcm_io.c	/^	char riff[4];		\/* Contains the text string "RIFF"             : 4 bytes *\/$/;"	m	struct:PCM_WAVE_HEADER	file:
+safe_free	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^void safe_free (void *p) {$/;"	f
+safe_malloc	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^void *safe_malloc (unsigned long size) {$/;"	f
+samplesAvailable	C_src/wavpcm_io.h	/^  int samplesAvailable; \/* Number of samples available, independent of channels or bitdepth. *\/  $/;"	m	struct:wavpcm_input
+samplesAvailable	C_src/wavpcm_io.h	/^  int samplesAvailable; \/* Number of samples available, independent of channels or bitdepth. *\/  $/;"	m	struct:wavpcm_output
+samplingRate	C_src/wavpcm_io.c	/^	int samplingRate;	\/* Sampling rate                               : 4 bytes *\/$/;"	m	struct:PCM_WAVE_HEADER	file:
+samplingRate	C_src/wavpcm_io.h	/^  int samplingRate;     \/* Sampling rate of wave file. *\/$/;"	m	struct:wavpcm_input
+samplingRate	C_src/wavpcm_io.h	/^  int samplingRate;     \/* Sampling rate of wave file. *\/$/;"	m	struct:wavpcm_output
+select_rate	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqio.c	/^void select_rate( long sample_rate, long * Error_Flag, char ** Error_Type )$/;"	f
+set_to_sine	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void set_to_sine (SIGNAL_INFO *info, float amplitude, float omega) {$/;"	f
+short_term_fft	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void short_term_fft (int Nf, SIGNAL_INFO *info, float *window, long start_sample, float *hz_spectrum, float *fft_tmp) {$/;"	f
+sint16	C_src/common.h	/^typedef  int16_t    sint16;$/;"	t
+sint32	C_src/common.h	/^typedef  int32_t    sint32;$/;"	t
+sint64	C_src/common.h	/^typedef  int64_t    sint64;$/;"	t
+sint8	C_src/common.h	/^typedef   int8_t     sint8;$/;"	t
+size	C_src/wavpcm_io.c	/^	int size;		\/* Size of chunk that follows (excluding header) : 4 bytes *\/$/;"	m	struct:PCM_WAVE_CHUNK_HEADER	file:
+snrseg	MATLAB/utils/snrseg.m	/^function [seg,glo]=snrseg(s,r,fs,m,tf)$/;"	f
+split_align	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqdsp.c	/^void split_align( SIGNAL_INFO * ref_info, SIGNAL_INFO * deg_info,$/;"	f
+standard_IRS_filter_dB	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^double standard_IRS_filter_dB [26] [2] = {{  0., -200},$/;"	v
+step	C_src/ADPCM.h	/^      aud_data_t step;$/;"	m	struct:ADPCM_dec_t
+step	C_src/ADPCM.h	/^      aud_data_t step;$/;"	m	struct:ADPCM_enc_t
+stepTable	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	/^uint8 *stepTable;$/;"	v
+stepTable2	C_src/ADPCM.c	/^sint16 stepTable2[2] = {6553, 13107};$/;"	v
+stepTable3	C_src/ADPCM.c	/^sint16 stepTable3[4] = {7372, 7372, 12288, 22528};$/;"	v
+stepTable4	C_src/ADPCM.c	/^sint16 stepTable4[8] = {7372, 7372, 7372, 7372, 9830, 13107, 16384, 19660};$/;"	v
+stepTable5	C_src/ADPCM.c	/^sint16 stepTable5[16] = {7372, 7372, 7372, 7372, 7782, 7782, 7782, 7782, 9830,$/;"	v
+stepTable_ptr	C_src/ADPCM.h	/^      sint16 *stepTable_ptr; \/* pointer to stepTable *\/$/;"	m	struct:ADPCM_enc_t
+stepTable_ptr	C_src/ADPCM.h	/^      sint16 *stepTable_ptr; \/*pointer to stepTable*\/$/;"	m	struct:ADPCM_dec_t
+subband_buffer	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	/^aud_data_t subband_buffer[5][PMAX*BLOCK_SIZE];$/;"	v
+synthesis_filter	C_src/ADPCM_SBC.c	/^sint16 synthesis_filter[40] = {   34,   -61,   -34,   128,    56, $/;"	v
+temp_buffer	co_testing/unit_tests/ADPCM_Dec/test_ADPCMdec.c	/^aud_data_t temp_buffer[BLOCK_SIZE];$/;"	v
+temp_buffer	co_testing/unit_tests/ADPCM_Enc/test_ADPCMenc.c	/^adpcm_data_t temp_buffer[BLOCK_SIZE];$/;"	v
+temp_buffer	co_testing/unit_tests/QMF_2bank_FB/test_2bank_FB.c	/^aud_data_t temp_buffer[BLOCK_SIZE];$/;"	v
+temp_buffer	co_testing/unit_tests/QMF_Synthesis/test_QMFS.c	/^aud_data_t temp_buffer[BLOCK_SIZE];$/;"	v
+temp_buffer	co_testing/unit_tests/QMF_full_FB/test_full_FB.c	/^aud_data_t temp_buffer[5][BLOCK_SIZE];$/;"	v
+temp_buffer0	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	/^aud_data_t temp_buffer0[BLOCK_SIZE];$/;"	v
+temp_buffer1	co_testing/unit_tests/QMF_Analysis/test_QMFA.c	/^aud_data_t temp_buffer1[BLOCK_SIZE];$/;"	v
+time_align	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqdsp.c	/^void time_align($/;"	f
+time_avg_audible_of	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void time_avg_audible_of (int number_of_frames, int *silent, float *pitch_pow_dens, float *avg_pitch_pow_dens, int total_number_of_frames) $/;"	f
+total_audible	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^float total_audible (int frame, float *pitch_pow_dens, float factor) {$/;"	f
+total_malloced	ITU_PESQ/Software/P862_annex_A_2005_CD/source/dsp.c	/^long total_malloced = 0;$/;"	v
+type	C_src/wavpcm_io.c	/^	short type;		\/* Type of wave file. PCM = 1                  : 2 bytes *\/$/;"	m	struct:PCM_WAVE_HEADER	file:
+uint16	C_src/common.h	/^typedef uint16_t    uint16;$/;"	t
+uint32	C_src/common.h	/^typedef uint32_t    uint32;$/;"	t
+uint64	C_src/common.h	/^typedef uint64_t    uint64;$/;"	t
+uint8	C_src/common.h	/^typedef  uint8_t     uint8;$/;"	t
+usage	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmain.c	/^void usage (void) {$/;"	f
+utterance_locate	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void utterance_locate( SIGNAL_INFO * ref_info, SIGNAL_INFO * deg_info,$/;"	f
+utterance_split	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^void utterance_split( SIGNAL_INFO * ref_info, SIGNAL_INFO * deg_info,$/;"	f
+wavefmt	C_src/wavpcm_io.c	/^	char wavefmt[8];	\/* Contains the text string "WAVEfmt "         : 8 bytes *\/$/;"	m	struct:PCM_WAVE_HEADER	file:
+wavpcm_input	C_src/wavpcm_io.h	/^struct wavpcm_input$/;"	s
+wavpcm_input_close	C_src/wavpcm_io.c	/^void wavpcm_input_close (struct wavpcm_input *input)$/;"	f
+wavpcm_input_open	C_src/wavpcm_io.c	/^void wavpcm_input_open (struct wavpcm_input *input) {$/;"	f
+wavpcm_input_read	C_src/wavpcm_io.c	/^int wavpcm_input_read (struct wavpcm_input *input, short destBuffer[BUFFERSIZE]) {	$/;"	f
+wavpcm_input_seek	C_src/wavpcm_io.c	/^void wavpcm_input_seek(struct wavpcm_input *input, int startSample) {$/;"	f
+wavpcm_output	C_src/wavpcm_io.h	/^struct wavpcm_output$/;"	s
+wavpcm_output_close	C_src/wavpcm_io.c	/^void wavpcm_output_close (struct wavpcm_output *output)$/;"	f
+wavpcm_output_copy_settings	C_src/wavpcm_io.c	/^void wavpcm_output_copy_settings (struct wavpcm_input *input, struct wavpcm_output *output)$/;"	f
+wavpcm_output_open	C_src/wavpcm_io.c	/^void wavpcm_output_open (struct wavpcm_output *output)$/;"	f
+wavpcm_output_write	C_src/wavpcm_io.c	/^void wavpcm_output_write (struct wavpcm_output *output, short inputBuffer[BUFFERSIZE], int bytesToWrite)$/;"	f
+width_of_band_bark	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^double *width_of_band_bark;$/;"	v
+width_of_band_bark_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double width_of_band_bark_16k [49] = { 0.157344,     0.317994,     0.322441,     0.326934,     0.331474,     $/;"	v
+width_of_band_bark_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double width_of_band_bark_8k [42] = { 0.157344,     0.317994,     0.322441,     0.326934,     0.331474,     $/;"	v
+width_of_band_hz	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqmod.c	/^double *width_of_band_hz;$/;"	v
+width_of_band_hz_16k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double width_of_band_hz_16k [49] = { 15.734426,     31.799433,     32.244064,     32.693359,     33.147385,     $/;"	v
+width_of_band_hz_8k	ITU_PESQ/Software/P862_annex_A_2005_CD/source/pesqpar.h	/^double width_of_band_hz_8k [42] = { 15.734426,     31.799433,     32.244064,     32.693359,     33.147385,     $/;"	v
+x_star	C_src/ADPCM.h	/^      aud_data_t x_star;$/;"	m	struct:ADPCM_dec_t
+x_star	C_src/ADPCM.h	/^      aud_data_t x_star;$/;"	m	struct:ADPCM_enc_t
+z_N	C_src/ADPCM.h	/^      adpcm_data_t z_N;$/;"	m	struct:ADPCM_enc_t
+z_N	C_src/ADPCM.h	/^      aud_data_t z_N;$/;"	m	struct:ADPCM_dec_t

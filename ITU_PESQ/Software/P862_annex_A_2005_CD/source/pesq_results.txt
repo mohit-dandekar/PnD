@@ -1,0 +1,4 @@
+REFERENCE	 DEGRADED	 PESQMOS	 MOSLQO	 SAMPLE_FREQ	 MODE
+/home/mohitd/Dropbox/Acad KU Leuven/Semester 2/PnD/dev/scratch_pad/wavs/words_m.wav	 /home/mohitd/Dropbox/Acad KU Leuven/Semester 2/PnD/dev/scratch_pad/wavs/words_m.wav	 4.500	 4.549	 16000	nb
+/home/mohitd/Dropbox/Acad KU Leuven/Semester 2/PnD/dev/scratch_pad/wavs/words_m.wav	 /home/mohitd/Dropbox/Acad KU Leuven/Semester 2/PnD/dev/scratch_pad/wavs/words_m.wav	 4.500	 4.549	 16000	nb
+/home/mohitd/Dropbox/Acad KU Leuven/Semester 2/PnD/dev/scratch_pad/wavs/bir.wav	 /home/mohitd/Dropbox/Acad KU Leuven/Semester 2/PnD/dev/scratch_pad/wavs/bir.wav	 4.500	 4.549	 16000	nb

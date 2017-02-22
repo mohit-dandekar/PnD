@@ -1,0 +1,142 @@
+###########################################################################
+#  P & D Embedded Systems and Multimedia [H09M0a]
+#  Subband-Coding 
+#  
+#  Mohit Dandekar
+#  John O'Callaghan
+###########################################################################
+
+        Subband-Coding MATLAB and C reference implementation
+
+Note:
+
+the framework has been tested on ESAT server 'vierre64'. The co-testing framework
+was created for Octave and uses some specific signal processing packages of Octave. The
+ESAT server has Octave but is missing the key packages. The framework thus has been adapted 
+to also work with MATLAB instead (done automatically by the makefiles). 
+
+It is thus recommended to run the framework on ESAT server 'vierre64' using the instructions
+below. Although the C code is generic for the kernels, the test code expects the relevant testvectors
+to be present in the directory 'test_vectors'. This is achieved by the matlab/octave scripts that 
+are called automatically by the makefile setup provided. 
+
+*** The setup is NOT guaranteed to work with any other enviroment such as eclipse/msvc or on windows 
+lacking GNU tool chain. ***
+
+###########################################################################
+
+                              INSTRUCTIONS
+
+1. To run MATLAB standalone test, run the 'codec_BlockProc_POC.m' in MATLAB
+
+
+2. To run the unit tests
+    
+   + enter folder ./co_testing 
+
+   + enter command 'make cleanall' to clean the full project build
+
+   + enter command 'make unittest'
+
+   + the results will print on stdout and be collected in 'RESULTS.txt' 
+
+     
+3. To run the full subband codec
+
+  + enter folder ./co_testing
+
+  + enter command 'make cleanall' to clean the full project build
+
+  + enter command 'make fullcodec  <options>'
+
+      + <options> *should* be left blank => uses default block size of 48 
+
+      + <options> can be set to 'BLOCKSIZE=<user_defined_block_size_multiple_of_16>'
+
+          + example: 'make fullcodec BLOCKSIZE=64'
+
+  + the results will print on stdout and be collected in 'RESULTS.txt' 
+
+
+4. To run the individual unit tests
+
+  + enter the unit test directory
+
+  + enter command 'make clean run'
+
+  + the results will print on stdout and be collected in 'RESULTS.txt' 
+    at top co_testing level 
+
+
+5. To run the subband codec
+
+  + enter directory ./CODEC
+
+  + run command 'make clean runpesq FNAME=</path/to/input/wav/file> BLOCKSIZE=<option>'
+    
+      + example: 'make clean runpesq FNAME=../../training_data/words_m.wav BLOCKSIZE=64' 
+
+      + example: 'make clean runpesq FNAME=../../training_data/words_m.wav' to use default block size 
+
+  + the results will print on stdout and be collected in 'RESULTS.txt' 
+    at top co_testing level 
+
+
+###########################################################################
+
+                          DIRECTORY STRUCTURE
+
+.
+├── README       // This File
+│   
+├── tags         // Tags file can be loaded into vim to navigate the code
+│   
+├── co_testing      // Top directory for testing
+│   ├── makefile    // Top level makefile to be used as described above 
+│   ├── CODEC       // Main subband codec testcase
+│   └── unit_tests
+│       ├── ADPCM_Dec   // unit test case to test the adpcm decoder
+│       ├── ADPCM_Enc   // unit test case to test the adpcm decoder
+│       ├── BitPacker      // unit test case to test the bit packing and depacking
+│       ├── QMF_Analysis   // unit test case for QMF analysis filter
+│       ├── QMF_Synthesis  // unit test case for QMF synthesis filter
+│       ├── QMF_2bank_FB   // unit test case to test the 2 bank perfect reconstruction filter bank
+│       └── QMF_full_FB    // unit test case to test the full 5 band perfect reconstruction filter bank
+│       
+├── C_src          
+│   ├── ADPCM.c    // ADPCM encoder and decoder implementation
+│   ├── ADPCM.h    
+│   ├── ADPCM_SBC.c // Full Subband coder decoder with bitpacking and depacking implementation
+│   ├── ADPCM_SBC.h
+│   ├── BitPacker.c // bit packer and depacker
+│   ├── BitPacker.h
+│   ├── common.h    // common #defines and macros
+│   ├── globals.h   // common #defines for codec test code
+│   ├── QMF.c       // QMF analysis and synthesis filter implementation
+│   ├── QMF.h
+│   ├── SBC.c       // Full subband analysis and synthesis filter implementation 
+│   ├── SBC.h
+│   ├── wavpcm_io.c // wav file read/write utility
+│   └── wavpcm_io.h
+│           
+├── MATLAB
+│   ├── src
+│   │   ├── ADPCM_coder.m   // reference implementation for ADPCM coder (floating and fix point)
+│   │   ├── ADPCM_decoder.m // reference implementation for ADPCM decoder (floating and fix point)
+│   │   ├── QMF_analysis.m  // reference implementation for QMF analysis filter bank
+│   │   └── QMF_synthesis.m // reference implementation for QMF synthesis filter bank
+│   ├── tests
+│   │   └── codec_BlockProc_POC.m // main full blockwise SB-ADPCM coder decoder test case
+│   └── utils // miscellaneous utilty matlab functions 
+│   
+├── scripts // common makefile 
+│   
+├── training_data // wav files for testing
+│           
+└── ITU_PESQ      // PESQ measurement software as provided by ITU
+    └── Software
+        └── P862_annex_A_2005_CD
+            ├── readme.txt
+            └── source
+
+###########################################################################

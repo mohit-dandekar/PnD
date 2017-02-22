@@ -1,0 +1,68 @@
+Reading Testvectors
+Initialize: C kernel under Test
+Process Call: C kernel under Test
+Checking output
+                          TEST PASS                               
+##################################################################
+[?1h=
+                                                                        < M A T L A B (R) >
+                                                              Copyright 1984-2014 The MathWorks, Inc.
+                                                                R2014a (8.3.0.532) 64-bit (glnxa64)
+                                                                         February 11, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+#################################################################
+3/9/2016  10:24:39 PM
+     Unit Testcase for ADPCM Decoder                  
+
+Number of Input blocks = 2952  Block Size = 6
+ADPCM Decoder
+Writing Testvectors
+[?1l>Reading Testvectors
+Initialize: C kernel under Test
+Process Call: C kernel under Test
+Checking output
+                          TEST PASS                               
+##################################################################
+[?1h=
+                                                                        < M A T L A B (R) >
+                                                              Copyright 1984-2014 The MathWorks, Inc.
+                                                                R2014a (8.3.0.532) 64-bit (glnxa64)
+                                                                         February 11, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+#################################################################
+3/9/2016  10:25:07 PM
+     Unit Testcase for Full CODEC: filename: ../../co_testing/CODEC/../../training_data/belasting.wav                   
+
+[Warning: WAVREAD will be removed in a future release. Use AUDIOREAD instead.] 
+[> In wavread at 62
+  In LoadWav at 14
+  In test_CODEC at 45
+  In run at 63] 
+[Warning: WAVWRITE will be removed in a future release. Use AUDIOWRITE instead.] 
+[> In wavwrite at 48
+  In test_CODEC at 54
+  In run at 63] 
+[?1l>BLOCK SIZE = 48
+structure size : 2072  1848
+PCM WAVE HEADER:
+  type:       RIFF
+  filesize:   513956
+  wavefmt:    WAVEfmt 
+  headersize: 16
+  type:       1
+  channels:   1
+  fs:         8000
+  byterate:   16000
+  blockalign: 2
+  bitdepth:   16
+PCM_WAVE_CHUNK_HEADER:
+  name:       data
+  size:       513920
